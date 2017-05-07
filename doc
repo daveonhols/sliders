@@ -1,0 +1,17 @@
+a puzzle is a square board, with numbers at all positions except one position which is blank
+a puzzle has a size which is the length of each side
+a puzzle is represented as a flat array of length size * size containing numbers from 1 to size * size - 1 and undefined
+a puzzle is either solved or unsolved
+a puzzle is solved when the first element of the array contains 0, the second 1, the third 2, and so on.  The last element is empty (undefined)
+some puzzles are unsolvable
+
+puzzle: {
+  positions: [0, 1, 2 ... N*N-2, undefined];
+  size: N
+ }
+
+state: {
+  current: puzzle, / current puzzle state
+  moves: , / number of moves to reach current state
+  distance: / A* heuristic measure of distance to solution.
+}

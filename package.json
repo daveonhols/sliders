@@ -1,0 +1,39 @@
+{
+  "name": "sliders",
+  "version": "1.0.0",
+  "description": "A tile sliding game",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover --include-all-sources --root ./src/ -dir ./public/coverage/ ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveonhols/sliders.git"
+  },
+  "keywords": [
+    "game",
+    "sliders",
+    "\"15",
+    "puzzle\""
+  ],
+  "author": "David Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daveonhols/sliders/issues"
+  },
+  "homepage": "https://github.com/daveonhols/sliders#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "deep-equal": "^1.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4"
+  }
+}
