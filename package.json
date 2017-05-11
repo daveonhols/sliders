@@ -13,8 +13,7 @@
   "keywords": [
     "game",
     "sliders",
-    "\"15",
-    "puzzle\""
+    "15 puzzle"
   ],
   "author": "David Smith",
   "license": "MIT",
@@ -33,7 +32,9 @@
   },
   "dependencies": {
     "express": "^4.15.2",
+    "hashes": "^0.1.4",
     "mustache": "^2.3.0",
-    "mustache-express": "^1.2.4"
+    "mustache-express": "^1.2.4",
+    "winston": "^2.3.1"
   }
 }
